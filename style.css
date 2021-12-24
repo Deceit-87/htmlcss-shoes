@@ -4,9 +4,36 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 /* NAV BAR */
 
+
+.nav{
+    
+    position: fixed;
+    top:0;
+    right: 0;
+    padding:20px;
+    z-index:90;
+}
+.nav li {
+    display: inline-block;
+}
+.nav li a{
+    font-size: 30px;
+    text-decoration: none;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* SEZIONI SHOE */
 .container {
 margin: 0 auto; 
     position: relative;
