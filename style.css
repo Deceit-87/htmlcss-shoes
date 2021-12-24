@@ -6,10 +6,11 @@
 
 body{
     margin: 0 auto;
-    max-width: 1024px;
+    
 }
 
 .container{
+    position: relative;
     margin: 0 auto;
     height:100vh;
 }
@@ -23,4 +24,12 @@ body{
 
 .red{
     background-color: red;
+}
+
+.img-wrapper {
+    
+    position:absolute;
+    top:50%;
+    right:50%;
+    transform: translate(-50% -50%);
 }
